@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100vh;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+}
+
+main {
+  background-color: #0a0707;
+  position: relative;
+  height: 100vh;
+}
+
+.cart {
+  background: #fff;
+  border-radius: 0 0 3rem 3rem;
+  position: relative;
+  height: 80vh;
+  text-align: center;
+}
+
+.header {
+  padding: 6.8rem 4rem 4rem 2.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+
+.header p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.65rem;
+  line-height: 3.1rem;
+  text-align: center;
+  color: rgba(141, 141, 141, 0.87);
+}
+
+.picked-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 0 3rem;
+}
+
+.item img {
+  margin-right: 5rem;
+}
+
+.item-info {
+  text-align: left;
+}
+
+.price {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  margin-bottom: 1rem;
+}
+
+.amount {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: #c4c4c4;
+}
+
+.total {
+  position: absolute;
+  bottom: 8rem;
+  width: 100%;
+}
+
+.total p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 2.6rem;
+  color: #bfbebe;
+}
+
+.total span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.7rem;
+  line-height: 3.7rem;
+  color: #000000;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.6rem 3.6rem 0 3.6rem;
+}
+
+.card p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.85rem;
+  line-height: 3.3rem;
+  color: #ffffff;
+}
+
+.card span {
+  color: #c4c4c4;
+}
